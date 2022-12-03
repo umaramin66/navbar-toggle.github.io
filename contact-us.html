@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+       .line{
+         height: 2px;
+    background: #6723DB;
+    width: 100px;
+       }
+
+    </style>
+  </head>
+  <body>
+     <header>
+    <a class="logo-zone d-inline-block" href="/">
+        <img class="logo" src="assets/images/logo/Logo-white.png" alt="">
+
+        <img class="logo-blue" src="assets/images/logo/Logo.png" alt="">
+    </a>
+
+    <div class="mob-nav">
+        <i class="fa fa-bars menu"></i>
+
+        <ul class="menu-list menu-list-inverse">
+            <li class="cross">
+                <i class="fa fa-times"></i>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+
+            <li>
+                <a href="our-work.html">Work</a>
+            </li>
+
+            <li>
+                <a href="about-us.html">About</a>
+            </li>
+
+            <li>
+                <a href="blogs.html">Blog</a>
+            </li>
+
+            <li>
+                <a href="careers.html">Career</a>
+            </li>
+
+            <li>
+                <a class="lets-talk" href="lets-talk.html">Let's Talk <img src="assets/images/Arrow%201.png" alt="" title="arrows"></a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    $(".menu,.menu-blue").click(function() {
+        $(".menu-list").css("top", "0px");
+    });
+
+    $(".cross,.cross-blue").click(function() {
+        $(".menu-list").css("top", "-100%");
+    });
+</script>
+
+
+    
+  </body>
+</html>
